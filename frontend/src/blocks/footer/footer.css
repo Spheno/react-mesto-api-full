@@ -1,0 +1,21 @@
+.footer {
+  max-width: 70%;
+  display: flex;
+  align-items: flex-start;
+}
+
+@media (max-width: 890px) {
+
+  .footer {
+    max-width: 80%;
+  }
+
+}
+
+@media (max-width: 620px) {
+
+  .footer {
+    max-width: 282px;
+  }
+
+}

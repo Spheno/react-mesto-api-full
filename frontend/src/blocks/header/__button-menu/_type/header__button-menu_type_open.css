@@ -1,0 +1,13 @@
+.header__button-menu_type_open {
+  background-image: url("../../../../images/Line.svg");
+}
+
+@media (max-width: 600px) {
+
+  .header__button-menu_type_open {
+    display: block;
+    grid-row: 1/2;
+    grid-column: 2/3;
+  }
+
+}

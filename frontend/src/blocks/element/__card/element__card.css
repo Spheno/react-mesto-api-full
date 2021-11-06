@@ -1,0 +1,8 @@
+.element__card {
+  max-width: 282px;
+  min-height: 79px;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

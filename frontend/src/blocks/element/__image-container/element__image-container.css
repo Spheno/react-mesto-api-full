@@ -1,0 +1,5 @@
+.element__image-container {
+  max-width: 282px;
+  max-height: 282px;
+  overflow: hidden;
+}

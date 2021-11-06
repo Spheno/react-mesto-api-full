@@ -1,0 +1,5 @@
+.element__button-like_active {
+  background-image: url('../../../../images/blacklike.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}

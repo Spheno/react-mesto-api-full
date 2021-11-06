@@ -1,0 +1,14 @@
+.header__button-menu_type_close {
+  background-image: url("../../../../images/plus.svg");
+  transform: rotate(-45deg);
+}
+
+@media (max-width: 600px) {
+
+  .header__button-menu_type_close {
+    display: block;
+    grid-row: 2/3;
+    grid-column: 2/3;
+  }
+
+}

@@ -1,0 +1,15 @@
+.header__user-name {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.22;
+  margin: 0 24px 0 0;
+  align-self: center;
+}
+
+@media (max-width: 600px) {
+
+  .header__user-name {
+    margin: 0 0 18px 0;
+    
+  }
+}

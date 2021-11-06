@@ -1,0 +1,31 @@
+.profile__button-avatar-change {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  border: none;
+  background: rgba(0, 0, 0, .8);
+  box-sizing: content-box;
+  background-image: url("../../../images/pencil.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30px;
+  position: absolute;
+  padding: 0;
+  opacity: 0;
+  transition: opacity .5s ease;
+  top: 0;
+  left: 0;
+}
+
+.profile__button-avatar-change:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+@media (max-width: 890px) {
+
+  .profile__button-avatar-change {
+    left: calc(50% - 60px);
+  }
+
+}

@@ -1,0 +1,19 @@
+.popup__button-close {
+  border: none;
+  position: absolute;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, .0);
+  background-image: url("../../../images/plus.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: rotate(-45deg);
+  background-size: contain;
+}
+
+@media (max-width: 620px) {
+  
+  .popup__button-close {
+    padding: 10px;
+  }
+  
+}

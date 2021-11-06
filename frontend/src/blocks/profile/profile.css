@@ -1,0 +1,29 @@
+.profile {
+  max-width: 70%;
+  margin-bottom: 50px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 120px 1fr 150px;
+  column-gap: 30px;
+  position: relative;
+}
+
+@media (max-width: 1090px) {
+
+  .profile {
+    grid-template-columns: 120px 1fr;
+    row-gap: 30px;
+  }
+
+}
+
+@media (max-width: 890px) {
+
+  .profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 0;
+  }
+
+}

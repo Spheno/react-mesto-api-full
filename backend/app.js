@@ -32,6 +32,7 @@ const options = {
   origin: [
     'http://localhost:3001',
     'http://holyplace.nomoredomains.work',
+    'https://holyplace.nomoredomains.work',
   ],
   methods: ['GET', 'HEAD', 'PUT', 'PATCH', 'POST', 'DELETE'],
   preflightContinue: false,

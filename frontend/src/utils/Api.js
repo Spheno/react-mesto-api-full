@@ -99,7 +99,7 @@ export class Api {
 }
 
 export const api = new Api({
-  url: 'http://51.250.6.102:3000',
+  url: 'http://holyplace.nomoredomains.work',
   headers: {
     'Content-type': 'application/json',
   },

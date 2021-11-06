@@ -1,4 +1,4 @@
-export const BASE_URL = 'http://51.250.6.102:3000';
+export const BASE_URL = 'http://holyplace.nomoredomains.work';
 
 function handleResponse(res) {
   if (!res.ok) {

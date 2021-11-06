@@ -3,7 +3,9 @@ const { celebrate, Joi } = require('celebrate');
 const { getUsers, getUserById, updateUserProfile, updateUserAvatar, getUser } = require('../controllers/users');
 const isUrl = require('../utils/url-validation');
 
-router.get('/', getUsers);
+router.get('/', getUsers, (req, res) => {
+  console.log(req.cookies.jwt);
+});
 router.get('/me', getUser);
 
 router.get('/:userId', celebrate({

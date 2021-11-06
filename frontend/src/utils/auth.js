@@ -1,4 +1,4 @@
-export const BASE_URL = 'http://127.0.0.1:3000';
+export const BASE_URL = 'http://51.250.6.102:3000';
 
 function handleResponse(res) {
   if (!res.ok) {

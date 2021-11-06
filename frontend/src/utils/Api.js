@@ -99,7 +99,7 @@ export class Api {
 }
 
 export const api = new Api({
-  url: 'http://127.0.0.1:3000',
+  url: 'http://51.250.6.102:3000',
   headers: {
     'Content-type': 'application/json',
   },

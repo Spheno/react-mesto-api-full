@@ -31,6 +31,7 @@ app.use(requestLogger);
 const options = {
   origin: [
     'http://localhost:3001',
+    'http://51.250.6.102/',
     'http://holyplace.nomoredomains.work',
     'https://holyplace.nomoredomains.work',
   ],

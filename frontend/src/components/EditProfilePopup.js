@@ -21,6 +21,7 @@ export function EditProfilePopup({ onUpdateUser, isOpen, onClose }) {
     setName(currentUser.name);
     setDescription(currentUser.about);
   }, [currentUser]);
+  
   function handleSubmit(e) {
     e.preventDefault();
 
@@ -38,7 +39,6 @@ export function EditProfilePopup({ onUpdateUser, isOpen, onClose }) {
       onClose={onClose}
       onSubmit={(e) => handleSubmit(e)}
     >
-
       <label className="popup__form-field">
         <input type="text" className="popup__input popup__input_info_name" name="name" id="firstname" placeholder="Имя"
           minLength="2" maxLength="40" required value={name || ''} onChange={(e) => handleChangeName(e)} />

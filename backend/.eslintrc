@@ -2,8 +2,8 @@
   "extends": "airbnb-base",
   "rules": {
     "no-underscore-dangle": ["error", { "allow": ["_id"] }],
-    "no-console": "off",
     "object-curly-newline": ["error", { "ImportDeclaration": "never" }],
+    "no-console": "off",
     "func-names": ["error", "never"],
     "no-useless-escape": "off",
     "no-shadow": "off",

@@ -1,4 +1,4 @@
-export const BASE_URL = 'https://api.holyplace.nomoredomains.work';
+export const BASE_URL = 'http://localhost:3000';
 
 function handleResponse(res) {
   if (!res.ok) {
